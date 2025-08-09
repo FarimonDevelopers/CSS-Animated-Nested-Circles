@@ -1,14 +1,14 @@
 # CSS-Animated-Nested-Circles
 This project demonstrates a nested circular div design with animated glowing borders using CSS keyframe animations.
 
--Features
-  *10 nested circular divs
+# Features
+  10 nested circular divs
 
-  *Each div has a unique colored border
+  Each div has a unique colored border
 
-  *Smooth border color and glow animation using CSS @keyframes
+  Smooth border color and glow animation using CSS @keyframes
 
-  *Staggered animation delay for a ripple effect
+  Staggered animation delay for a ripple effect
 
 # How to use
   Clone or download this repository
