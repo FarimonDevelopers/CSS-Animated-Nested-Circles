@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practies</title>
+    <style>
+
+       
+        .main {
+            width: 350px;
+            height: 350px;
+            background: blueviolet;
+            position: relative;
+        }
+        .div1 {
+        border: 2px solid red;
+        padding: 100px;
+        margin: 100px;
+        border-radius: 50%;
+        position: absolute;
+        animation: borderPulse 5s infinite alternate;
+        animation-delay: 0s;
+        }
+
+        .div2 {
+        border: 2px solid green;
+        padding: 90px;
+        margin: -92px;
+        border-radius: 50%;
+        position: absolute;
+        animation: borderPulse 5s infinite alternate;
+        animation-delay: 0.5s;
+        }
+
+        .div3 {
+        border: 2px solid blue;
+        padding: 80px;
+        margin: -82px;
+        border-radius: 50%;
+        position: absolute;
+        animation: borderPulse 5s infinite alternate;
+        animation-delay: 1s;
+        }
+
+        .div4 {
+        border: 2px solid blueviolet;
+        padding: 70px;
+        margin: -72px;
+        border-radius: 50%;
+        position: absolute;
+        animation: borderPulse 5s infinite alternate;
+        animation-delay: 1.5s;
+        }
+
+         .div5 {
+        border: 2px solid gold;
+        padding: 60px;
+        margin: -62px;
+        border-radius: 50%;
+        position: absolute;
+        animation: borderPulse 5s infinite alternate;
+        animation-delay: 2s;
+        }
+
+        .div6 {
+        border: 2px solid greenyellow;
+        padding: 50px;
+        margin: -52px;
+        border-radius: 50%;
+        position: absolute;
+        animation: borderPulse 5s infinite alternate;
+        animation-delay: 2.5s;
+        }
+
+        .div7 {
+        border: 2px solid orange;
+        padding: 40px;
+        margin: -42px;
+        border-radius: 50%;
+        position: absolute;
+        animation: borderPulse 5s infinite alternate;
+        animation-delay: 3s;
+        }
+
+        .div8 {
+        border: 2px solid olive;
+        padding: 30px;
+        margin: -32px;
+        border-radius: 50%;
+        position: absolute;
+        animation: borderPulse 5s infinite alternate;
+        animation-delay: 3.5s;
+        }
+
+        .div9 {
+        border: 2px solid olive;
+        padding: 20px;
+        margin: -22px;
+        border-radius: 50%;
+        position: absolute;
+        animation: borderPulse 5s infinite alternate;
+        animation-delay: 4s;
+        }
+
+        .div10 {
+        border: 2px solid olive;
+        padding: 10px;
+        margin: -12px;
+        border-radius: 50%;
+        position: absolute;
+        background: black;
+        animation: borderPulse 5s infinite alternate;
+        animation-delay: 4.5s;
+        }
+
+
+    
+        @keyframes borderPulse {
+        0% {
+            border-color: currentColor;
+            box-shadow: 0 0 10px currentColor;
+        }
+        20% {
+            border-color: white;
+            box-shadow: 0 0 20px white;
+        }
+        40% {
+            border-color: currentColor;
+            box-shadow: 0 0 10px currentColor;
+        }
+        60% {
+            border-color: white;
+            box-shadow: 0 0 20px white;
+        }
+        80% {
+            border-color: currentColor;
+            box-shadow: 0 0 10px currentColor;
+        }
+        100% {
+            border-color: white;
+            box-shadow: 0 0 20px white;
+        }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <div class="div2">
+            <div class="div3">
+                <div class="div4">
+                    <div class="div5">
+                        <div class="div6">
+                            <div class="div7">
+                                <div class="div8">
+                                    <div class="div9">
+                                        <div class="div10">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
